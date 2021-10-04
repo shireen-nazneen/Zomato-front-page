@@ -1,0 +1,107 @@
+.searchbar {
+  width: 100%;
+  height: 700px; 
+  padding: 12px 20px; 
+  margin: 2px ; 
+  display: inline-block; 
+  border: 1px solid #ccc; 
+}
+
+.Logo{
+  padding-top: 20px;
+}
+.centered {
+  height: 50%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  padding: 2px;
+  color: rgb(114, 117, 119);
+  transform: translate(-50%, -50%);
+}
+.text{
+  color: red;
+  font-size: 350%;
+  font-style: italic;  
+}
+.hedding{
+  color: white;
+}
+.search_bar{
+  height: 30px;
+  width: 500px;
+}
+.login{
+  padding: 2px 4px;
+  background-color: inherit;
+  width: 65px;
+  height: 50px;
+  position: absolute;
+  border-radius: 0.6rem;  top: 30px;
+  right: 10px;
+  font-family: cursive;
+  font-size: 1.0rem;
+  color: white;
+  cursor: pointer;
+  
+}
+.sing_up{
+  padding: 2px 4px;
+  background-color: inherit;  width: 65px;
+  height: 50px;
+  border-radius: 0.6rem;
+  position: absolute; 
+  top: 30px;
+  right: 90px;
+  font-family: cursive;
+  font-size: 1.1rem;
+  color: white;
+  cursor: pointer; 
+}
+.input_box{
+  border: medium none;
+  font-size: 1.4rem;
+  width: 100%;
+  border-radius: 0.8rem;
+}
+
+.Login-form{
+  margin: inherit;
+  background-size: inherit;
+  border: chocolate;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header { 
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
